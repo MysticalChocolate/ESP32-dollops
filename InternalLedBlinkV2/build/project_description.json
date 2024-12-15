@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "InternalLedBlinkV2",
-    "project_version":    "c31a602",
+    "project_version":    "e3f59ef-dirty",
     "project_path":       "D:/dev/MicroControllers/ESP32-dollops/InternalLedBlinkV2",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.3.2",
     "build_dir":          "D:/dev/MicroControllers/ESP32-dollops/InternalLedBlinkV2/build",
@@ -1465,8 +1465,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "D:/dev/MicroControllers/ESP32-dollops/InternalLedBlinkV2/build/esp-idf/unity/libunity.a",
-            "sources": [ "C:/Espressif/frameworks/esp-idf-v5.3.2/components/unity/unity/src/unity.c", "C:/Espressif/frameworks/esp-idf-v5.3.2/components/unity/unity_compat.c", "C:/Espressif/frameworks/esp-idf-v5.3.2/components/unity/unity_runner.c", "C:/Espressif/frameworks/esp-idf-v5.3.2/components/unity/unity_utils_freertos.c", "C:/Espressif/frameworks/esp-idf-v5.3.2/components/unity/unity_utils_cache.c", "C:/Espressif/frameworks/esp-idf-v5.3.2/components/unity/unity_utils_memory.c", "C:/Espressif/frameworks/esp-idf-v5.3.2/components/unity/unity_port_esp32.c", "C:/Espressif/frameworks/esp-idf-v5.3.2/components/unity/port/esp/unity_utils_memory_esp.c" ],
-            "include_dirs": [ "include", "unity/src" ]
+            "sources": [ "C:/Espressif/frameworks/esp-idf-v5.3.2/components/unity/unity/src/unity.c", "C:/Espressif/frameworks/esp-idf-v5.3.2/components/unity/unity_compat.c", "C:/Espressif/frameworks/esp-idf-v5.3.2/components/unity/unity_runner.c", "C:/Espressif/frameworks/esp-idf-v5.3.2/components/unity/unity_utils_freertos.c", "C:/Espressif/frameworks/esp-idf-v5.3.2/components/unity/unity_utils_cache.c", "C:/Espressif/frameworks/esp-idf-v5.3.2/components/unity/unity/extras/fixture/src/unity_fixture.c", "C:/Espressif/frameworks/esp-idf-v5.3.2/components/unity/unity_utils_memory.c", "C:/Espressif/frameworks/esp-idf-v5.3.2/components/unity/unity_port_esp32.c", "C:/Espressif/frameworks/esp-idf-v5.3.2/components/unity/port/esp/unity_utils_memory_esp.c" ],
+            "include_dirs": [ "include", "unity/src", "unity/extras/fixture/src" ]
         },
         "usb": {
             "alias": "idf::usb",
@@ -2722,7 +2722,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "include", "unity/src" ]
+            "include_dirs": [ "include", "unity/src", "unity/extras/fixture/src" ]
         },
         "usb": {
             "alias": "idf::usb",
