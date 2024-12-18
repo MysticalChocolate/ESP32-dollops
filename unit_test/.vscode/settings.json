@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    "testable.h": "c",
+    "string.h": "c",
+    "stdio.h": "c",
+    "limits.h": "c",
+    "unity.h": "c",
+    "stdbool.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "enabled",
+  "idf.espIdfPathWin": "c:\\Espressif\\frameworks\\esp-idf-v5.3.2",
+  "idf.toolsPathWin": "C:\\Users\\Shane\\.espressif"
+}

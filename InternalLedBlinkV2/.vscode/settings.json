@@ -8,6 +8,11 @@
     "esp_log.h": "c",
     "sdkconfig.h": "c",
     "*.tcc": "c",
-    "format": "c"
-  }
+    "format": "c",
+    "task.h": "c",
+    "freertos.h": "c",
+    "unity.h": "c",
+    "gpio.h": "c"
+  },
+  "idf.flashType": "UART"
 }
